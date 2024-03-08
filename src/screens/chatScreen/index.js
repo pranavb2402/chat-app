@@ -31,7 +31,7 @@ function ChatScreen() {
     }
 
     return (
-        <main className="flex flex-col border h-full max-w-[1000px] w-screen bg-black">
+        <main className="flex flex-col h-full max-w-[1000px] w-screen bg-gray-900">
             {chatData?.length ? (
                 <Chat
                     chatData={chatData.slice().reverse()}

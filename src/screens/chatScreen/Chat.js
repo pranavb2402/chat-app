@@ -6,7 +6,7 @@ function Chat({ chatData, onClickDelete }) {
         else return true
     }
     return (
-        <div className="flex flex-1 flex-col-reverse bg-black overflow-y-auto">
+        <div className="flex flex-1 flex-col-reverse bg-gray-900 overflow-y-auto">
             {chatData?.map((chat, index) => (
                 <div className="flex m-2 justify-end" key={chat?.id}>
                     <div

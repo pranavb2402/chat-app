@@ -12,7 +12,7 @@ function ChatInput({ onClickSend }) {
     }
 
     return (
-        <div className="flex flex-row justify-center items-center mt-2 border border-gray-400 p-2">
+        <div className="flex flex-row justify-center items-center mt-2  p-2">
             <textarea
                 className="p-2 flex-1 flex rounded resize-none border-2 focus:outline-yellow-400"
                 value={message}
